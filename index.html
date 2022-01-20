@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/extended.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -32,7 +33,7 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
+								<li><a href="#projects">Projects</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -51,21 +52,30 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
 							</article>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
+						<!-- Project -->
+							<article id="projects">
+								<h2 class="major">Projects</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-								<h3>Flocking Algorithm</h3>
-								<span class="image main"><img src="images/FlockingAlgorithm/Flock.PNG"></span>
-								<p>This program applies the concepts of flocks using the Boids concepts. </p>
-								<ul>
-									<li>Separation</li>
-									<li>Alignment</li>
-									<li>Cohesion</li>
-								</ul>
-								<p>Using 2 dimensional vectors, each concept affects the direction of a entity making them behave like a flock. </p>
+								<h2>2021 &mdash; Flocking Algorithm</h2>
+								<span class="image main"><img src="images/FlockingAlgorithm/Flock.gif"></span>
+								
+								<p>This program applies uses <a target="_blank"href="https://en.wikipedia.org/wiki/Boids">Boids algorithm's</a> main behaviours of flocks. </p>
+								<!-- <p>In other words:  </p>
+								<ul class="list">
+									<li>Separation: Stirs the entity in opposite direction of other entities within a certain range (i.e away from flocks).</li>
+									<li>Alignment: Stirs the entity in the same average direction of the nearby flocks.</li>
+									<li>Cohesion: Stirs the entity towards the average position of nearby flocks. </li>
+								</ul> -->
+								<p>Using 2 dimensional vectors, each behaviours affects the direction of a entity making them behave like a flock. </p>
+								<p>
+									Get a portable version of the app <a target="_blank" href="files/FlockingAlgorithm.zip">here!</a> 
+									(Run the .exe file on Windows, for other operating systems you may refer to this 
+									<a target="_blank" href="https://docs.microsoft.com/en-us/dotnet/core/tutorials/publishing-with-visual-studio?pivots=dotnet-6-0#run-the-published-app">Website <i class="fas fa-link"></i></a>
+									).
+								</p>
+								<p><a target="_blank" href="https://github.com/JayC-SF/Flock">Click here <i class="icon brands fa-github"></i></a> to see the source code on Github! 
 							</article>
 
 						<!-- About -->

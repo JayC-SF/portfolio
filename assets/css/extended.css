@@ -1,0 +1,13 @@
+#projects p { 
+    margin-bottom: 1em;
+}
+
+#projects a { 
+    color: lightblue
+}
+#projects .fa-link{
+    font-size: 1rem;
+}
+#projects .fa-github {
+    font-size: 1rem;
+}
